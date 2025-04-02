@@ -1,0 +1,16 @@
+persona_luis = new Persona(
+    edad: 17
+    nombre "Luis"
+    color_cabello: "castaño"
+    decir_nombre(
+        habla {tu nombre}
+    )
+)
+
+class Personas{
+    edad: Integer
+    nombre: String
+    color_cabello: String
+    decir_nombre():
+    habla {tu nombre}
+}
